@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="imgSobreNosEFaviCon/favicon-32x32.png" type="image/x-icon">
+    <title>Bosque da Praça</title>
+</head>
+<body>
+   
+    <header>
+        <img src="./imagens/logoBosqueHeader.png" alt="">
+       
+            <nav class="navegavel">
+                <a href="#favoritos">FAVORITOS</a>
+                <a href="#eventos">EVENTOS</a>
+                <a href="#galeria">GALERIA</a>
+                <a href="#contato">CONTATO</a>
+        </nav>
+    </header>
+    
+   <div class="overlay" id="overlay"></div>
+
+
+<div class="popup" id="popup">
+    <div class="popup-content">
+        <div class="popup-img-container">
+            <img src="imagens/popUp_bosqueOri.png" alt="Imagem Pop-up">
+            <button class="close-btn" onclick="closePopup()">X</button>
+        </div>
+    </div>
+</div>
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" data-bs-interval="200" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagens/imgHeader1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/carrosselPizza.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/carrosselBebida.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/imgHeader4.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+  <h2>SOBRE NÓS</h2>
+    <section class="sobreNos">
+      <div class="conteudo">
+        <p>
+          O Restaurante e Pizzaria Bosque da Praça, localizado na Praça Seca, oferece uma experiência completa de gastronomia, com pratos da culinária regional e pizzas preparadas com ingredientes frescos. Nosso ambiente acolhedor conta com uma área externa agradável e um espaço kids, perfeito para curtir com a família e amigos. Além disso, temos uma carta de drinks especiais e música ao vivo, trazendo o melhor do pagode e MPB para acompanhar sua refeição.</p>
+          <p class="paragrafoEscuro">Aqui, a qualidade na comida e o atendimento de excelência se unem para garantir momentos inesquecíveis. No Bosque da Praça, você encontra o sabor, o clima descontraído e a diversão que tornam cada visita única.
+        </p>
+      </div>
+      <img class="barrilBosque" src="imgSobreNosEFaviCon/logoBosqueBarril.jpg" alt="Logo do Bosque da Praça">
+  </section>
+  
+    <section id="favoritos">
+      <h2 class="favhtml">FAVORITOS</h2>
+        <picture class="sessaoFav">
+          <div class="item">
+              <img src="imgFav/cardFavCarne.jpg" alt="">
+              <a href="https://app.jotaja.com/adegabosquedapraca#carnes" target="_blank">Carnes</a>
+          </div>
+      
+          <div class="item">
+              <img src="imgFav/vinho.jpg" alt="">
+              <a href="https://app.jotaja.com/adegabosquedapraca#bebidas" target="_blank" >Bebidas</a>
+          </div>
+      
+          <div class="item">
+              <img src="imgFav/lasanha.jpg" alt="">
+              <a href="https://app.jotaja.com/adegabosquedapraca#massas" target="_blank" >Massas</a>
+          </div>
+      
+          <div class="item">
+              <img src="imgFav/sobremesa_bananaSplit.jpg" alt="">
+              <a href="https://app.jotaja.com/adegabosquedapraca#sobremesas" target="_blank">Sobremesas</a>
+          </div>
+      </picture>
+    </section>
+    <section id="eventos">
+      <h2>EVENTOS</h2>
+      <h4>Carnaval</h4>
+      <p>🎭 Bloco de Carnaval Lavou ta limpo - 02/2025</p>
+      <br>
+      <p> 🥁 Segunda-Feira(Pagode): Jimmy do Molejo das 21:00 às 00:00</p>
+      <p> 🥁 Terça-Feira(MPB): Marcelo Ribeiro às 21:00 às 00:00</p>
+      <p> 🥁 Quinta-Feira(MPB): Marcelo Ribeiro às 21:00 às 00:00</p>
+      <p> 🥁 Sexta-Feira(Pagode): Rafael Nascimento das 21:00 às 00:00</p>    
+  </section>
+
+  <section class="sessaoGaleria" id="galeria">
+    <h2>GALERIA</h2>
+    <hr>
+        <picture class="sessaoFotosGaleria">
+          <div class="item">
+              <img src="imgGaleria/buffetBosque.jpg" alt="">
+              <a href="#">Buffet</a>
+          </div>
+      
+          <div class="item">
+              <img src="imgGaleria/reserva35PessoasBosque.jpg" alt="">
+              <a href="#">Area Externa</a>
+          </div>
+      
+          <div class="item">
+              <img src="imgGaleria/buffetBosque2.jpg" alt="">
+              <a href="#">Buffet2</a>
+          </div>
+      
+          <div class="item">
+              <img src="imgGaleria/servidoBosqueBuffet.jpg" alt="">
+              <a href="#">buffet3</a>
+          </div>
+      </picture>
+  </section>
+  <section>
+    <picture class="sessaoFotosGaleria2">
+      <div class="item">
+        <img src="imgGaleria/area100pessoas.jpg" alt="">
+        <a href="#">Espaço 100 pessoas</a>
+        </div>
+      
+        <div class="item">
+      <img src="imgGaleria/areaExternaRua.jpg" alt="">
+      <a href="#">Espaço Externo</a>
+      </div>
+      
+      <div class="item">
+        <img src="imgGaleria/visaoBarDentro.jpg" alt="">
+        <a href="#">Bar</a>
+      </div>
+      
+      <div class="item">
+      <img src="imgGaleria/areaBar.jpg" alt="">
+      <a href="#">Espaço Bar</a>
+      </div>
+    </picture>
+  </section>
+
+
+  <section class="classhr">
+    <hr>
+  </section>
+
+  <div>
+    <footer class="footer" id="contato">
+      <div class="footer-section">
+          <p>ENDEREÇO: R. Cândido Benício, 2235 - Praça Seca, Rio de Janeiro - RJ, 22733-000</p>
+      </div>
+      <div class="footer-section">
+        <p>CONTATO:</p>
+        <div class="social-links">
+            <div class="social-item">
+                <img class="imgFace" src="icones/logo-facebook.jpg" alt="">
+                <a href="https://web.facebook.com/bosquedapraca?locale=pt_BR" target="_blank">/Bosque da Praça</a>
+            </div>
+            <div class="social-item">
+                <img class="imgInsta" src="icones/logo-instagram.jpg" alt="">
+                <a href="https://www.instagram.com/adegabosquedapraca/" target="_blank">/Bosque da Praça</a>
+            </div>
+            <div class="social-item">
+              <img class="imgWpp" src="icones/logo_wpp-removebg-preview.png" alt="">
+              <a href="https://wa.me/5521964066995" target="_blank">(21) 9 6406-6995</a>
+
+              
+          </div>
+        </div>
+    </div>
+    
+      <div class="footer-section">
+          <p>FAÇA SUA RESERVA CONOSCO:</p>
+          <P> ☎️ 3392-8643</P>
+          <p> ☎️ 3392-6704</p>
+      </div>
+  </footer>
+  
+    
+    <script src="index.js"></script>
+</body>
+</html>
